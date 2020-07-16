@@ -267,6 +267,7 @@ public class Main {
                 				}
             			}
         			}
+        			
         			dungoun = utill.selectFightStage(dungounNum, dungounList);
         			utill.fight(dungoun, hero, inventory, inventoryList);
         			if(hero.getExp() >= hero.getMaxExp()) {
